@@ -1,0 +1,15 @@
+.navbar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    background-color: #f55a5a;
+    color: white;
+}
+
+.globeIcon{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}

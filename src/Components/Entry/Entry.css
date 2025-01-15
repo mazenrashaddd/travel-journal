@@ -1,0 +1,66 @@
+body {
+  font-family: Inter, sans-serif;
+}
+.entrySection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0px;
+}
+
+.imageSection {
+  width: 165px;
+  height: 260px;
+}
+
+.imageSection > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3%;
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12px;
+  padding: 20px 0px;
+  /* width: 30px; */
+}
+
+.headingSection {
+  width: 260px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headingSection > div > span {
+  font-weight: 550;
+  margin-left: 4px;
+}
+
+.googleMapsLink {
+  text-decoration: none;
+  color: #8a8a8a;
+}
+
+.tripTitle {
+  font-size: 32px;
+  max-width: 330px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.tripDate {
+  margin-top: 10px;
+}
+
+.tripParagraph {
+  width: 330px;
+  line-height: 22px;
+  margin-top: 12px;
+  margin-bottom: 0;
+}

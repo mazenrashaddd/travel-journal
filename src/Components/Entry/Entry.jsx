@@ -1,7 +1,7 @@
 import "./Entry.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import mountFuji from "../../assets/images/mountFuji.webp";
+// import mountFuji from "../../assets/images/mountFuji.webp";
 
 export default function Entry(props) {
   return (
@@ -23,6 +23,7 @@ export default function Entry(props) {
             className="googleMapsLink"
             href={props.googleMapsLink}
             target="_blank"
+            rel="noopener noreferrer"
           >
             View in Google Maps
           </a>

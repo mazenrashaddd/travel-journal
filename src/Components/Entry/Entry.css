@@ -55,7 +55,9 @@ body {
 }
 
 .tripDate {
-  margin-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+  font-weight: 600;
 }
 
 .tripParagraph {
@@ -63,4 +65,52 @@ body {
   line-height: 22px;
   margin-top: 12px;
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .entrySection {
+    flex-direction: column;
+    margin: 20px 10px;
+  }
+
+  .imageSection {
+    width: 85%;
+    height: auto;
+  }
+
+  .infoSection {
+    margin-left: 0;
+    padding: 15px 0;
+    align-items: center;
+  }
+
+  .headingSection {
+    flex-direction: row;
+    width: 80%;
+    align-items: flex-start;
+  }
+
+  .tripTitle {
+    font-size: 29px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: -35px;
+    text-align:start;
+    width: 80%;
+  }
+
+  .tripDate{
+    width: 80%;
+    margin-top: 6px;
+  }
+
+  .tripParagraph {
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .googleMapsLink {
+    font-size: 15px;
+  }
 }

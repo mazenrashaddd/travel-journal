@@ -1,1 +1,1 @@
-Scrimba React Solo Project - Travel Journal
+# Scrimba React Solo Project - Travel Journal
